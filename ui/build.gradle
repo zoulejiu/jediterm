@@ -42,7 +42,7 @@ test {
 
 archivesBaseName = "jediterm-ui"
 
-group 'org.jetbrains.jediterm'
+group 'com.ssh.jediterm'
 version rootProject.ext.projectVersion
 
 task mainJar(type: Jar) {
@@ -70,44 +70,46 @@ artifacts {
 publishing {
   publications {
     mavenJava(MavenPublication) {
-      groupId = group
-      artifactId = archivesBaseName
-      artifact mainJar
-      artifact sourcesJar
-      pom {
-        name = 'JediTerm'
-        description 'Pure Java Terminal Emulator.'
-        url = 'https://github.com/JetBrains/jediterm'
-        licenses {
-          license {
-            name = 'LGPL 3.0'
-            url = 'https://www.gnu.org/licenses/lgpl.txt'
-          }
-        }
-        developers {
-          developer {
-            id = 'JetBrains'
-            name = 'JetBrains Team'
-            organization = 'JetBrains'
-            organizationUrl = 'https://www.jetbrains.com'
-            email = 'sergey.simonchik@jetbrains.com'
-          }
-        }
-        scm {
-          connection = 'scm:git:git://github.com/JetBrains/jediterm.git'
-          developerConnection = 'scm:git:ssh:github.com/JetBrains/jediterm.git'
-          url = 'https://github.com/JetBrains/jediterm'
-        }
-      }
+      from(components.java)
+      //groupId = group
+      //artifactId = archivesBaseName
+      //artifact mainJar
+      //artifact sourcesJar
+      //pom {
+      //  name = 'JediTerm'
+      //  description 'Pure Java Terminal Emulator.'
+      //  url = 'https://github.com/JetBrains/jediterm'
+      //  licenses {
+      //    license {
+      //      name = 'LGPL 3.0'
+      //      url = 'https://www.gnu.org/licenses/lgpl.txt'
+      //    }
+      //  }
+      //  developers {
+      //    developer {
+      //      id = 'JetBrains'
+      //      name = 'JetBrains Team'
+      //      organization = 'JetBrains'
+      //      organizationUrl = 'https://www.jetbrains.com'
+      //      email = 'sergey.simonchik@jetbrains.com'
+      //    }
+      //  }
+      //  scm {
+      //    connection = 'scm:git:git://github.com/JetBrains/jediterm.git'
+      //    developerConnection = 'scm:git:ssh:github.com/JetBrains/jediterm.git'
+      //    url = 'https://github.com/JetBrains/jediterm'
+      //  }
+      //}
     }
   }
   repositories {
-    maven {
-      url "https://packages.jetbrains.team/maven/p/ij/intellij-dependencies"
-      credentials {
-        username = System.getenv('INTELLIJ_DEPENDENCIES_BOT')
-        password = System.getenv('INTELLIJ_DEPENDENCIES_TOKEN')
-      }
-    }
+    mavenLocal()
+    //maven {
+    //  url "https://packages.jetbrains.team/maven/p/ij/intellij-dependencies"
+    //  credentials {
+    //    username = System.getenv('INTELLIJ_DEPENDENCIES_BOT')
+    //    password = System.getenv('INTELLIJ_DEPENDENCIES_TOKEN')
+    //  }
+    //}
   }
 }

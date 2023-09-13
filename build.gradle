@@ -5,18 +5,19 @@ def projectVersion = new File(rootProject.projectDir, 'VERSION').text
 ext.projectVersion = projectVersion
 
 if (System.getenv('INTELLIJ_DEPENDENCIES_BOT') == null) {
-    ext.projectVersion = ext.projectVersion + '-SNAPSHOT'
+  ext.projectVersion = ext.projectVersion + '-SNAPSHOT'
 }
 
 
 allprojects {
-    version = projectVersion
+  version = projectVersion
 
-    buildDir = new File(rootProject.projectDir, ".gradleBuild/" + project.name)
+  buildDir = new File(rootProject.projectDir, ".gradleBuild/" + project.name)
 }
 
 subprojects {
-    repositories {
-        mavenCentral()
-    }
+  repositories {
+    mavenLocal()
+    mavenCentral()
+  }
 }
