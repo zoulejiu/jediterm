@@ -1,14 +1,14 @@
-package com.jediterm;
+package com.ssh.jediterm;
 
-import com.jediterm.core.compatibility.Point;
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.RequestOrigin;
-import com.jediterm.terminal.model.JediTerminal;
-import com.jediterm.terminal.model.SelectionUtil;
-import com.jediterm.terminal.model.StyleState;
-import com.jediterm.terminal.model.TerminalTextBuffer;
-import com.jediterm.util.BackBufferDisplay;
-import com.jediterm.util.TestSession;
+import com.ssh.jediterm.core.compatibility.Point;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.RequestOrigin;
+import com.ssh.jediterm.terminal.model.JediTerminal;
+import com.ssh.jediterm.terminal.model.SelectionUtil;
+import com.ssh.jediterm.terminal.model.StyleState;
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer;
+import com.ssh.jediterm.util.BackBufferDisplay;
+import com.ssh.jediterm.util.TestSession;
 import junit.framework.TestCase;
 
 /**

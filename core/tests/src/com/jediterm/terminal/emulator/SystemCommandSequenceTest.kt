@@ -1,8 +1,9 @@
-package com.jediterm.terminal.emulator
+package com.ssh.jediterm.terminal.emulator
 
-import com.jediterm.core.util.Ascii.BEL_CHAR
-import com.jediterm.core.util.Ascii.ESC_CHAR
-import com.jediterm.terminal.ArrayTerminalDataStream
+import com.ssh.jediterm.core.util.Ascii.BEL_CHAR
+import com.ssh.jediterm.core.util.Ascii.ESC_CHAR
+import com.ssh.jediterm.terminal.ArrayTerminalDataStream
+import com.ssh.jediterm.terminal.emulator.SystemCommandSequence
 import org.junit.Assert
 import org.junit.Test
 import java.util.concurrent.TimeUnit

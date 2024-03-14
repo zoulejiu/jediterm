@@ -1,9 +1,9 @@
-package com.jediterm;
+package com.ssh.jediterm;
 
-import com.jediterm.core.Color;
-import com.jediterm.terminal.emulator.ColorPalette;
-import com.jediterm.terminal.model.TerminalTextBuffer;
-import com.jediterm.util.TestSession;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.terminal.emulator.ColorPalette;
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer;
+import com.ssh.jediterm.util.TestSession;
 import org.jetbrains.annotations.NotNull;
 import org.junit.Assert;
 

@@ -1,12 +1,12 @@
-package com.jediterm;
+package com.ssh.jediterm;
 
-import com.jediterm.terminal.StyledTextConsumerAdapter;
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.model.CharBuffer;
-import com.jediterm.terminal.model.JediTerminal;
-import com.jediterm.terminal.model.StyleState;
-import com.jediterm.terminal.model.TerminalTextBuffer;
-import com.jediterm.util.BackBufferDisplay;
+import com.ssh.jediterm.terminal.StyledTextConsumerAdapter;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.model.CharBuffer;
+import com.ssh.jediterm.terminal.model.JediTerminal;
+import com.ssh.jediterm.terminal.model.StyleState;
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer;
+import com.ssh.jediterm.util.BackBufferDisplay;
 import junit.framework.TestCase;
 import org.jetbrains.annotations.NotNull;
 

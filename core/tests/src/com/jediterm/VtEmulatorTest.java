@@ -1,4 +1,4 @@
-package com.jediterm;
+package com.ssh.jediterm;
 
 import org.jetbrains.annotations.NotNull;
 

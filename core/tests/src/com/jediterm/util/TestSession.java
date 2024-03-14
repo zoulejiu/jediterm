@@ -1,15 +1,15 @@
-package com.jediterm.util;
+package com.ssh.jediterm.util;
 
-import com.jediterm.core.Color;
-import com.jediterm.terminal.ArrayTerminalDataStream;
-import com.jediterm.terminal.HyperlinkStyle;
-import com.jediterm.terminal.TerminalColor;
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.emulator.Emulator;
-import com.jediterm.terminal.emulator.JediEmulator;
-import com.jediterm.terminal.model.StyleState;
-import com.jediterm.terminal.model.TerminalTextBuffer;
-import com.jediterm.terminal.model.hyperlinks.TextProcessing;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.terminal.ArrayTerminalDataStream;
+import com.ssh.jediterm.terminal.HyperlinkStyle;
+import com.ssh.jediterm.terminal.TerminalColor;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.emulator.Emulator;
+import com.ssh.jediterm.terminal.emulator.JediEmulator;
+import com.ssh.jediterm.terminal.model.StyleState;
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer;
+import com.ssh.jediterm.terminal.model.hyperlinks.TextProcessing;
 import junit.framework.TestCase;
 import org.jetbrains.annotations.NotNull;
 

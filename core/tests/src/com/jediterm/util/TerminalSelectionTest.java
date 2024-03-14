@@ -1,7 +1,7 @@
-package com.jediterm.util;
+package com.ssh.jediterm.util;
 
-import com.jediterm.core.compatibility.Point;
-import com.jediterm.terminal.model.TerminalSelection;
+import com.ssh.jediterm.core.compatibility.Point;
+import com.ssh.jediterm.terminal.model.TerminalSelection;
 import junit.framework.TestCase;
 import kotlin.Pair;
 

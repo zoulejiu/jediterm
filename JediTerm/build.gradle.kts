@@ -20,5 +20,5 @@ dependencies {
 }
 
 application {
-  mainClass = "com.jediterm.app.JediTermMain"
+  mainClass = "com.ssh.jediterm.app.JediTermMain"
 }
