@@ -1,4 +1,4 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
 /**
  * @deprecated Collect extra information when creating {@link TtyConnector}.

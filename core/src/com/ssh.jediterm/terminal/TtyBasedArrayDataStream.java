@@ -1,6 +1,6 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
-import com.jediterm.terminal.TextStyle
+import com.ssh.jediterm.terminal.TextStyle
 import junit.framework.TestCase
 
 class LinesStorageOperationsTest : TestCase() {

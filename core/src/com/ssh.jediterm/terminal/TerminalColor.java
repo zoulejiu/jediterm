@@ -1,6 +1,6 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.core.Color;
+import com.ssh.jediterm.core.Color;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

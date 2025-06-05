@@ -1,6 +1,6 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import kotlin.Pair;
 import org.jetbrains.annotations.NotNull;
 
@@ -26,7 +26,7 @@ public class CharBuffer implements Iterable<Character>, CharSequence {
     myBuf = buf;
     myStart = start;
     myLength = length;
-    
+
     if (myLength < 0) {
       throw new IllegalStateException("Length can't be negative: " + myLength);
     }

@@ -1,10 +1,10 @@
-package com.jediterm;
+package com.ssh.jediterm;
 
-import com.jediterm.terminal.TerminalMode;
-import com.jediterm.terminal.model.JediTerminal;
-import com.jediterm.terminal.model.StyleState;
-import com.jediterm.terminal.model.TerminalTextBuffer;
-import com.jediterm.util.BackBufferDisplay;
+import com.ssh.jediterm.terminal.TerminalMode;
+import com.ssh.jediterm.terminal.model.JediTerminal;
+import com.ssh.jediterm.terminal.model.StyleState;
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer;
+import com.ssh.jediterm.util.BackBufferDisplay;
 import junit.framework.TestCase;
 
 public class ModesTest extends TestCase {

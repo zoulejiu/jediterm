@@ -1,6 +1,6 @@
-package com.jediterm.terminal.emulator.charset;
+package com.ssh.jediterm.terminal.emulator.charset;
 
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import org.jetbrains.annotations.Nullable;
 
 /**

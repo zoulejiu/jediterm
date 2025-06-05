@@ -1,10 +1,10 @@
-package com.jediterm
+package com.ssh.jediterm
 
-import com.jediterm.core.Platform
-import com.jediterm.core.input.InputEvent
-import com.jediterm.core.input.KeyEvent
-import com.jediterm.core.util.Ascii
-import com.jediterm.terminal.TerminalKeyEncoder
+import com.ssh.jediterm.core.Platform
+import com.ssh.jediterm.core.input.InputEvent
+import com.ssh.jediterm.core.input.KeyEvent
+import com.ssh.jediterm.core.util.Ascii
+import com.ssh.jediterm.terminal.TerminalKeyEncoder
 import org.junit.Assert
 import org.junit.Test
 

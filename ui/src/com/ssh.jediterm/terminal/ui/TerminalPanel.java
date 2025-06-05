@@ -1,26 +1,26 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.core.Color;
-import com.jediterm.core.TerminalCoordinates;
-import com.jediterm.core.compatibility.Point;
-import com.jediterm.core.typeahead.TerminalTypeAheadManager;
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.*;
-import com.jediterm.terminal.SubstringFinder.FindResult.FindItem;
-import com.jediterm.terminal.TextStyle.Option;
-import com.jediterm.terminal.emulator.ColorPalette;
-import com.jediterm.terminal.emulator.charset.CharacterSets;
-import com.jediterm.terminal.emulator.mouse.MouseFormat;
-import com.jediterm.terminal.emulator.mouse.MouseMode;
-import com.jediterm.terminal.emulator.mouse.TerminalMouseListener;
-import com.jediterm.terminal.model.*;
-import com.jediterm.terminal.model.hyperlinks.LinkInfo;
-import com.jediterm.terminal.model.hyperlinks.TextProcessing;
-import com.jediterm.terminal.ui.hyperlinks.LinkInfoEx;
-import com.jediterm.terminal.ui.input.AwtMouseEvent;
-import com.jediterm.terminal.ui.input.AwtMouseWheelEvent;
-import com.jediterm.terminal.ui.settings.SettingsProvider;
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.core.TerminalCoordinates;
+import com.ssh.jediterm.core.compatibility.Point;
+import com.ssh.jediterm.core.typeahead.TerminalTypeAheadManager;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.*;
+import com.ssh.jediterm.terminal.SubstringFinder.FindResult.FindItem;
+import com.ssh.jediterm.terminal.TextStyle.Option;
+import com.ssh.jediterm.terminal.emulator.ColorPalette;
+import com.ssh.jediterm.terminal.emulator.charset.CharacterSets;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseFormat;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseMode;
+import com.ssh.jediterm.terminal.emulator.mouse.TerminalMouseListener;
+import com.ssh.jediterm.terminal.model.*;
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkInfo;
+import com.ssh.jediterm.terminal.model.hyperlinks.TextProcessing;
+import com.ssh.jediterm.terminal.ui.hyperlinks.LinkInfoEx;
+import com.ssh.jediterm.terminal.ui.input.AwtMouseEvent;
+import com.ssh.jediterm.terminal.ui.input.AwtMouseWheelEvent;
+import com.ssh.jediterm.terminal.ui.settings.SettingsProvider;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import kotlin.Pair;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -48,7 +48,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import static com.jediterm.terminal.ui.UtilKt.isWindows;
+import static com.ssh.jediterm.terminal.ui.UtilKt.isWindows;
 
 public class TerminalPanel extends JComponent implements TerminalDisplay, TerminalActionProvider {
   private static final Logger LOG = LoggerFactory.getLogger(TerminalPanel.class);

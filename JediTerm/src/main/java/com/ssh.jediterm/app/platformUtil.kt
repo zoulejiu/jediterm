@@ -1,4 +1,4 @@
-package com.jediterm.app
+package com.ssh.jediterm.app
 
 internal fun isWindows(): Boolean {
   return System.getProperty("os.name").lowercase().startsWith("windows")

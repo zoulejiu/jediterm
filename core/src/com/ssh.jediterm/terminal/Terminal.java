@@ -1,13 +1,13 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.core.Color;
-import com.jediterm.core.util.CellPosition;
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.emulator.mouse.MouseFormat;
-import com.jediterm.terminal.emulator.mouse.MouseMode;
-import com.jediterm.terminal.model.StyleState;
-import com.jediterm.terminal.model.TerminalApplicationTitleListener;
-import com.jediterm.terminal.model.TerminalResizeListener;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.core.util.CellPosition;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseFormat;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseMode;
+import com.ssh.jediterm.terminal.model.StyleState;
+import com.ssh.jediterm.terminal.model.TerminalApplicationTitleListener;
+import com.ssh.jediterm.terminal.model.TerminalResizeListener;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -15,7 +15,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 /**
- * Executes terminal commands interpreted by {@link com.jediterm.terminal.emulator.Emulator}, receives text
+ * Executes terminal commands interpreted by {@link com.ssh.jediterm.terminal.emulator.Emulator}, receives text
  *
  * @author traff
  */

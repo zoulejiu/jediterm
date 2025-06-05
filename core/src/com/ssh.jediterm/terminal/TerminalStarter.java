@@ -1,11 +1,11 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.core.input.KeyEvent;
-import com.jediterm.core.typeahead.TerminalTypeAheadManager;
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.emulator.Emulator;
-import com.jediterm.terminal.emulator.JediEmulator;
-import com.jediterm.terminal.model.JediTerminal;
+import com.ssh.jediterm.core.input.KeyEvent;
+import com.ssh.jediterm.core.typeahead.TerminalTypeAheadManager;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.emulator.Emulator;
+import com.ssh.jediterm.terminal.emulator.JediEmulator;
+import com.ssh.jediterm.terminal.model.JediTerminal;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

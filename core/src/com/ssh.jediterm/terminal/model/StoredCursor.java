@@ -1,11 +1,11 @@
 /**
  * 
  */
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.emulator.charset.CharacterSet;
-import com.jediterm.terminal.emulator.charset.GraphicSetState;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.emulator.charset.CharacterSet;
+import com.ssh.jediterm.terminal.emulator.charset.GraphicSetState;
 import org.jetbrains.annotations.NotNull;
 
 public class StoredCursor {

@@ -1,7 +1,7 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.terminal.TerminalColor;
-import com.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.TerminalColor;
+import com.ssh.jediterm.terminal.TextStyle;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;

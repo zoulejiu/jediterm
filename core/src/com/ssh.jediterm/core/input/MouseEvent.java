@@ -1,4 +1,4 @@
-package com.jediterm.core.input;
+package com.ssh.jediterm.core.input;
 
 public class MouseEvent {
   private final int myButtonCode;

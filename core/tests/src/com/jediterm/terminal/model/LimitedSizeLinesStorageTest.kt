@@ -1,4 +1,4 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
 import junit.framework.TestCase
 
@@ -167,7 +167,7 @@ class LimitedSizeLinesStorageTest : TestCase() {
     storage.clear()
     assertEquals(0, storage.size)
   }
-  
+
   private fun createStorage(maxSize: Int): LinesStorage {
     return CyclicBufferLinesStorage(maxSize)
   }

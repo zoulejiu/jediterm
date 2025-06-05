@@ -1,4 +1,4 @@
-package com.jediterm.core.compatibility;
+package com.ssh.jediterm.core.compatibility;
 
 import java.util.Objects;
 

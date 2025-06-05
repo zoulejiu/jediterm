@@ -1,7 +1,7 @@
-package com.jediterm.terminal.emulator.mouse;
+package com.ssh.jediterm.terminal.emulator.mouse;
 
-import com.jediterm.core.input.MouseEvent;
-import com.jediterm.core.input.MouseWheelEvent;
+import com.ssh.jediterm.core.input.MouseEvent;
+import com.ssh.jediterm.core.input.MouseWheelEvent;
 import org.jetbrains.annotations.NotNull;
 
 public interface TerminalMouseListener {

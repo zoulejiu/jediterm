@@ -1,6 +1,6 @@
-package com.jediterm.terminal.ui.settings;
+package com.ssh.jediterm.terminal.ui.settings;
 
-import com.jediterm.terminal.ui.TerminalActionPresentation;
+import com.ssh.jediterm.terminal.ui.TerminalActionPresentation;
 import org.jetbrains.annotations.NotNull;
 
 public interface SystemSettingsProvider {

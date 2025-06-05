@@ -1,10 +1,10 @@
-package com.jediterm.terminal.ui.settings;
+package com.ssh.jediterm.terminal.ui.settings;
 
-import com.jediterm.terminal.HyperlinkStyle;
-import com.jediterm.terminal.TerminalColor;
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.emulator.ColorPalette;
-import com.jediterm.terminal.model.TerminalTypeAheadSettings;
+import com.ssh.jediterm.terminal.HyperlinkStyle;
+import com.ssh.jediterm.terminal.TerminalColor;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.emulator.ColorPalette;
+import com.ssh.jediterm.terminal.model.TerminalTypeAheadSettings;
 import org.jetbrains.annotations.NotNull;
 
 import java.awt.*;

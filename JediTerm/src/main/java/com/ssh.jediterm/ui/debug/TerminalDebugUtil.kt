@@ -1,10 +1,10 @@
-package com.jediterm.ui.debug
+package com.ssh.jediterm.ui.debug
 
-import com.jediterm.terminal.StyledTextConsumerAdapter
-import com.jediterm.terminal.TextStyle
-import com.jediterm.terminal.model.CharBuffer
-import com.jediterm.terminal.model.TerminalTextBuffer
-import com.jediterm.terminal.model.processLines
+import com.ssh.jediterm.terminal.StyledTextConsumerAdapter
+import com.ssh.jediterm.terminal.TextStyle
+import com.ssh.jediterm.terminal.model.CharBuffer
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer
+import com.ssh.jediterm.terminal.model.processLines
 
 object TerminalDebugUtil {
 

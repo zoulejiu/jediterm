@@ -1,4 +1,4 @@
-package com.jediterm.terminal.ui.settings;
+package com.ssh.jediterm.terminal.ui.settings;
 
 public interface SettingsProvider extends SystemSettingsProvider, UserSettingsProvider {
 }

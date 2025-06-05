@@ -1,4 +1,4 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
 import org.jetbrains.annotations.NotNull;
 

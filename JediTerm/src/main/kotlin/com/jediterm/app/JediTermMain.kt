@@ -1,14 +1,14 @@
-package com.jediterm.app
+package com.ssh.jediterm.app
 
-import com.jediterm.pty.PtyProcessTtyConnector
-import com.jediterm.terminal.LoggingTtyConnector
-import com.jediterm.terminal.LoggingTtyConnector.TerminalState
-import com.jediterm.terminal.TtyConnector
-import com.jediterm.terminal.model.getLinesAsString
-import com.jediterm.terminal.ui.JediTermWidget
-import com.jediterm.terminal.ui.settings.SettingsProvider
-import com.jediterm.ui.AbstractTerminalFrame
-import com.jediterm.ui.debug.TerminalDebugUtil
+import com.ssh.jediterm.pty.PtyProcessTtyConnector
+import com.ssh.jediterm.terminal.LoggingTtyConnector
+import com.ssh.jediterm.terminal.LoggingTtyConnector.TerminalState
+import com.ssh.jediterm.terminal.TtyConnector
+import com.ssh.jediterm.terminal.model.getLinesAsString
+import com.ssh.jediterm.terminal.ui.JediTermWidget
+import com.ssh.jediterm.terminal.ui.settings.SettingsProvider
+import com.ssh.jediterm.ui.AbstractTerminalFrame
+import com.ssh.jediterm.ui.debug.TerminalDebugUtil
 import com.pty4j.PtyProcess
 import com.pty4j.PtyProcessBuilder
 import java.io.IOException

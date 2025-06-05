@@ -1,6 +1,6 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
-import com.jediterm.core.util.TermSize
+import com.ssh.jediterm.core.util.TermSize
 
 interface TerminalResizeListener {
   fun onResize(oldTermSize: TermSize, newTermSize: TermSize)

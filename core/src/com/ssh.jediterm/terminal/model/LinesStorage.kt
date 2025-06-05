@@ -1,6 +1,6 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
-import com.jediterm.terminal.StyledTextConsumer
+import com.ssh.jediterm.terminal.StyledTextConsumer
 import kotlin.math.min
 
 /**

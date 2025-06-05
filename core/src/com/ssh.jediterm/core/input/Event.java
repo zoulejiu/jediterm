@@ -1,4 +1,4 @@
-package com.jediterm.core.input;
+package com.ssh.jediterm.core.input;
 
 final class Event {
   public static final int SHIFT_MASK          = 1;

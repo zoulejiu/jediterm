@@ -1,13 +1,13 @@
-package com.jediterm.terminal.ui.settings;
+package com.ssh.jediterm.terminal.ui.settings;
 
-import com.jediterm.terminal.HyperlinkStyle;
-import com.jediterm.terminal.TerminalColor;
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.emulator.ColorPalette;
-import com.jediterm.terminal.emulator.ColorPaletteImpl;
-import com.jediterm.terminal.model.LinesStorage;
-import com.jediterm.terminal.model.TerminalTypeAheadSettings;
-import com.jediterm.terminal.ui.TerminalActionPresentation;
+import com.ssh.jediterm.terminal.HyperlinkStyle;
+import com.ssh.jediterm.terminal.TerminalColor;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.emulator.ColorPalette;
+import com.ssh.jediterm.terminal.emulator.ColorPaletteImpl;
+import com.ssh.jediterm.terminal.model.LinesStorage;
+import com.ssh.jediterm.terminal.model.TerminalTypeAheadSettings;
+import com.ssh.jediterm.terminal.ui.TerminalActionPresentation;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
@@ -16,9 +16,9 @@ import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.util.Collections;
 
-import static com.jediterm.terminal.ui.AwtTransformers.fromAwtToTerminalColor;
-import static com.jediterm.terminal.ui.UtilKt.isMacOS;
-import static com.jediterm.terminal.ui.UtilKt.isWindows;
+import static com.ssh.jediterm.terminal.ui.AwtTransformers.fromAwtToTerminalColor;
+import static com.ssh.jediterm.terminal.ui.UtilKt.isMacOS;
+import static com.ssh.jediterm.terminal.ui.UtilKt.isWindows;
 
 public class DefaultSettingsProvider implements SettingsProvider {
   @Override

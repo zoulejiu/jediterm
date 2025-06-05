@@ -1,4 +1,4 @@
-package com.jediterm.ui.debug
+package com.ssh.jediterm.ui.debug
 
 import java.io.*
 import java.nio.charset.StandardCharsets

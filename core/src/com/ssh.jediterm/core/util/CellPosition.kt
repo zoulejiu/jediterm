@@ -1,4 +1,4 @@
-package com.jediterm.core.util
+package com.ssh.jediterm.core.util
 
 class CellPosition(/* one-based column */ val x: Int,
                    /* one-based row    */ val y: Int) {

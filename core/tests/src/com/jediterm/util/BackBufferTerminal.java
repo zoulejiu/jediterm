@@ -1,9 +1,9 @@
-package com.jediterm.util;
+package com.ssh.jediterm.util;
 
-import com.jediterm.terminal.TerminalOutputStream;
-import com.jediterm.terminal.model.JediTerminal;
-import com.jediterm.terminal.model.StyleState;
-import com.jediterm.terminal.model.TerminalTextBuffer;
+import com.ssh.jediterm.terminal.TerminalOutputStream;
+import com.ssh.jediterm.terminal.model.JediTerminal;
+import com.ssh.jediterm.terminal.model.StyleState;
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.ByteArrayOutputStream;

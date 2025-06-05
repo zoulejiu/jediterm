@@ -1,4 +1,4 @@
-package com.jediterm.core;
+package com.ssh.jediterm.core;
 
 /**
  * @author traff

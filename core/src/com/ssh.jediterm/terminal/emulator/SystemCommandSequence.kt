@@ -1,8 +1,8 @@
-package com.jediterm.terminal.emulator
+package com.ssh.jediterm.terminal.emulator
 
-import com.jediterm.core.util.Ascii
-import com.jediterm.terminal.TerminalDataStream
-import com.jediterm.terminal.util.CharUtils
+import com.ssh.jediterm.core.util.Ascii
+import com.ssh.jediterm.terminal.TerminalDataStream
+import com.ssh.jediterm.terminal.util.CharUtils
 import java.io.IOException
 import java.lang.StringBuilder
 

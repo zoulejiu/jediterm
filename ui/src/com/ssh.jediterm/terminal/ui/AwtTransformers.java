@@ -1,7 +1,7 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.core.Color;
-import com.jediterm.terminal.TerminalColor;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.terminal.TerminalColor;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.Nullable;
 

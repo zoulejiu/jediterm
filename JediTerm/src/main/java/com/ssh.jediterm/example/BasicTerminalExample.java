@@ -1,8 +1,8 @@
-package com.jediterm.example;
+package com.ssh.jediterm.example;
 
-import com.jediterm.terminal.TtyConnector;
-import com.jediterm.terminal.ui.JediTermWidget;
-import com.jediterm.terminal.ui.settings.DefaultSettingsProvider;
+import com.ssh.jediterm.terminal.TtyConnector;
+import com.ssh.jediterm.terminal.ui.JediTermWidget;
+import com.ssh.jediterm.terminal.ui.settings.DefaultSettingsProvider;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

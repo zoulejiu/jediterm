@@ -1,7 +1,7 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.core.typeahead.Debouncer;
-import com.jediterm.terminal.TerminalExecutorServiceManager;
+import com.ssh.jediterm.core.typeahead.Debouncer;
+import com.ssh.jediterm.terminal.TerminalExecutorServiceManager;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.ScheduledExecutorService;

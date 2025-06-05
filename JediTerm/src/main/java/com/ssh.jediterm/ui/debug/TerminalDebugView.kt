@@ -1,7 +1,7 @@
-package com.jediterm.ui.debug
+package com.ssh.jediterm.ui.debug
 
-import com.jediterm.terminal.LoggingTtyConnector
-import com.jediterm.terminal.ui.TerminalSession
+import com.ssh.jediterm.terminal.LoggingTtyConnector
+import com.ssh.jediterm.terminal.ui.TerminalSession
 import java.awt.*
 import java.util.concurrent.CopyOnWriteArrayList
 import javax.swing.*

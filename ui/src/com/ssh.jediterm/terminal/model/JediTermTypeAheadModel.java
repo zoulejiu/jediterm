@@ -1,9 +1,9 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.core.typeahead.TypeAheadTerminalModel;
-import com.jediterm.terminal.Terminal;
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.ui.settings.SettingsProvider;
+import com.ssh.jediterm.core.typeahead.TypeAheadTerminalModel;
+import com.ssh.jediterm.terminal.Terminal;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.ui.settings.SettingsProvider;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;

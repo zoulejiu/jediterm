@@ -1,6 +1,6 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.terminal.SubstringFinder;
+import com.ssh.jediterm.terminal.SubstringFinder;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

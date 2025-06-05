@@ -1,7 +1,7 @@
-package com.jediterm.pty;
+package com.ssh.jediterm.pty;
 
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.ProcessTtyConnector;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.ProcessTtyConnector;
 import com.pty4j.PtyProcess;
 import com.pty4j.WinSize;
 import org.jetbrains.annotations.NotNull;

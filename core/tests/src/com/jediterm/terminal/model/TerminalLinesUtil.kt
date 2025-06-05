@@ -1,9 +1,9 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
-import com.jediterm.terminal.TextStyle
-import com.jediterm.terminal.model.TerminalLine.TextEntry
-import com.jediterm.terminal.util.CharUtils
-import com.jediterm.util.CharBufferUtil
+import com.ssh.jediterm.terminal.TextStyle
+import com.ssh.jediterm.terminal.model.TerminalLine.TextEntry
+import com.ssh.jediterm.terminal.util.CharUtils
+import com.ssh.jediterm.util.CharBufferUtil
 
 @JvmOverloads
 fun terminalLine(text: String, style: TextStyle = TextStyle()): TerminalLine {

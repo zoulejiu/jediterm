@@ -1,4 +1,4 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
 /**
  * @param maxCapacity maximum number of stored lines; -1 means no restriction

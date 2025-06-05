@@ -1,4 +1,4 @@
-package com.jediterm.core.input;
+package com.ssh.jediterm.core.input;
 
 public final class KeyEvent {
   public static final int VK_ENTER          = '\n';

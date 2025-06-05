@@ -1,4 +1,4 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
 import java.util.concurrent.CopyOnWriteArrayList
 

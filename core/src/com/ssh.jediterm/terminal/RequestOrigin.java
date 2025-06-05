@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
 public enum RequestOrigin{
 	User,

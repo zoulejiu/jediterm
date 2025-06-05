@@ -1,7 +1,7 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.core.compatibility.Point;
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.core.compatibility.Point;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import kotlin.Pair;
 import org.jetbrains.annotations.NotNull;
 
@@ -156,7 +156,7 @@ public class SelectionUtil {
         }
         y++;
         x = 0;
-        
+
         line = terminalTextBuffer.getLine(y).getText();
       }
     }

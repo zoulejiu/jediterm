@@ -1,4 +1,4 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
 // internal accessor to package-private stuff in TerminalLine
 internal object TerminalLineUtil {

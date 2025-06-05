@@ -1,6 +1,6 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.core.util.TermSize;
+import com.ssh.jediterm.core.util.TermSize;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -43,7 +43,7 @@ public interface TtyConnector {
   @Deprecated
   default void resize(java.awt.Dimension termWinSize, java.awt.Dimension pixelSize) {
     throw new IllegalStateException("This method shouldn't be called. " +
-      getClass() + " should override TtyConnector.resize(com.jediterm.core.util.TermSize)");
+      getClass() + " should override TtyConnector.resize(com.ssh.jediterm.core.util.TermSize)");
   }
 
   /**

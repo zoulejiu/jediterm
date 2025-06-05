@@ -1,6 +1,6 @@
-package com.jediterm.util;
+package com.ssh.jediterm.util;
 
-import com.jediterm.terminal.model.CharBuffer;
+import com.ssh.jediterm.terminal.model.CharBuffer;
 import org.jetbrains.annotations.TestOnly;
 
 /**

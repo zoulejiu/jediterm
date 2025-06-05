@@ -1,8 +1,8 @@
-package com.jediterm.terminal.ui.input;
+package com.ssh.jediterm.terminal.ui.input;
 
-import com.jediterm.core.input.MouseEvent;
-import com.jediterm.terminal.emulator.mouse.MouseButtonCodes;
-import com.jediterm.terminal.emulator.mouse.MouseButtonModifierFlags;
+import com.ssh.jediterm.core.input.MouseEvent;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseButtonCodes;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseButtonModifierFlags;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

@@ -1,6 +1,6 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.terminal.emulator.Emulator;
+import com.ssh.jediterm.terminal.emulator.Emulator;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.jediterm.core.input;
+package com.ssh.jediterm.core.input;
 
 public class MouseWheelEvent extends MouseEvent {
   public MouseWheelEvent(int buttonCode, int modifierKeys) {

@@ -1,10 +1,10 @@
-package com.jediterm.example;
+package com.ssh.jediterm.example;
 
-import com.jediterm.pty.PtyProcessTtyConnector;
-import com.jediterm.terminal.CursorShape;
-import com.jediterm.terminal.TtyConnector;
-import com.jediterm.terminal.ui.JediTermWidget;
-import com.jediterm.terminal.ui.settings.DefaultSettingsProvider;
+import com.ssh.jediterm.pty.PtyProcessTtyConnector;
+import com.ssh.jediterm.terminal.CursorShape;
+import com.ssh.jediterm.terminal.TtyConnector;
+import com.ssh.jediterm.terminal.ui.JediTermWidget;
+import com.ssh.jediterm.terminal.ui.settings.DefaultSettingsProvider;
 import com.pty4j.PtyProcess;
 import com.pty4j.PtyProcessBuilder;
 import org.jetbrains.annotations.NotNull;
@@ -16,7 +16,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.jediterm.app.PlatformUtilKt.isWindows;
+import static com.ssh.jediterm.app.PlatformUtilKt.isWindows;
 
 public class BasicTerminalShellExample {
 

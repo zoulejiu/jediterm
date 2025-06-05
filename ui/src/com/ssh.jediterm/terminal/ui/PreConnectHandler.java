@@ -1,7 +1,7 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.terminal.Questioner;
-import com.jediterm.terminal.Terminal;
+import com.ssh.jediterm.terminal.Questioner;
+import com.ssh.jediterm.terminal.Terminal;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -22,7 +22,7 @@ final class PreConnectHandler implements Questioner, KeyListener {
     this.myVisible = true;
   }
 
-  // These methods will suspend the current thread and wait for 
+  // These methods will suspend the current thread and wait for
   // the event handling thread to provide the answer.
   public String questionHidden(String question) {
     myVisible = false;

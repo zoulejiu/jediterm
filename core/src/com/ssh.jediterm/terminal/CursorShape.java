@@ -1,4 +1,4 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
 /**
  * Cursor shape as described by <a href="https://vt100.net/docs/vt510-rm/DECSCUSR.html">DECSCUSR</a>.

@@ -1,6 +1,6 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.core.compatibility.Point;
+import com.ssh.jediterm.core.compatibility.Point;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

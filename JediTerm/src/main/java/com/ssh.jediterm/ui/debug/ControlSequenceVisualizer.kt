@@ -1,6 +1,6 @@
-package com.jediterm.ui.debug
+package com.ssh.jediterm.ui.debug
 
-import com.jediterm.terminal.util.CharUtils
+import com.ssh.jediterm.terminal.util.CharUtils
 import java.lang.IllegalStateException
 import java.util.regex.Pattern
 

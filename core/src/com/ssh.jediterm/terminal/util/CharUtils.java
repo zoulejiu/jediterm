@@ -1,8 +1,8 @@
-package com.jediterm.terminal.util;
+package com.ssh.jediterm.terminal.util;
 
-import com.jediterm.core.util.Ascii;
-import com.jediterm.terminal.emulator.charset.CharacterSets;
-import com.jediterm.terminal.model.CharBuffer;
+import com.ssh.jediterm.core.util.Ascii;
+import com.ssh.jediterm.terminal.emulator.charset.CharacterSets;
+import com.ssh.jediterm.terminal.model.CharBuffer;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;

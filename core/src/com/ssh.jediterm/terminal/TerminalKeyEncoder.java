@@ -1,16 +1,16 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.core.Platform;
-import com.jediterm.core.input.InputEvent;
-import com.jediterm.core.util.Ascii;
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.core.Platform;
+import com.ssh.jediterm.core.input.InputEvent;
+import com.ssh.jediterm.core.util.Ascii;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import static com.jediterm.core.input.KeyEvent.*;
+import static com.ssh.jediterm.core.input.KeyEvent.*;
 
 /**
  * @author traff

@@ -1,7 +1,7 @@
-package com.jediterm.core.typeahead;
+package com.ssh.jediterm.core.typeahead;
 
-import com.jediterm.core.typeahead.TypeAheadTerminalModel.LineWithCursorX;
-import com.jediterm.core.util.Ascii;
+import com.ssh.jediterm.core.typeahead.TypeAheadTerminalModel.LineWithCursorX;
+import com.ssh.jediterm.core.util.Ascii;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -205,7 +205,7 @@ public class TerminalTypeAheadManager {
       myCharacter = ch;
     }
 
-    // @see com.jediterm.terminal.TerminalKeyEncoder
+    // @see com.ssh.jediterm.terminal.TerminalKeyEncoder
     public static @NotNull List<@NotNull TypeAheadEvent> fromByteArray(byte[] byteArray) {
       if (byteArray.length == 0) {
         return Collections.emptyList();

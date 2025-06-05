@@ -1,5 +1,5 @@
-package com.jediterm.terminal.model
+package com.ssh.jediterm.terminal.model
 
-import com.jediterm.core.util.CellPosition
+import com.ssh.jediterm.core.util.CellPosition
 
 class TerminalResizeResult(val newCursor: CellPosition)

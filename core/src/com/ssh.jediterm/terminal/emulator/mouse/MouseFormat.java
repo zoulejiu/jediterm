@@ -1,4 +1,4 @@
-package com.jediterm.terminal.emulator.mouse;
+package com.ssh.jediterm.terminal.emulator.mouse;
 
 /**
  * @author traff

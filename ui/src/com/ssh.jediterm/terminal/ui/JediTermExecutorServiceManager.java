@@ -1,6 +1,6 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.terminal.TerminalExecutorServiceManager;
+import com.ssh.jediterm.terminal.TerminalExecutorServiceManager;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.ExecutorService;

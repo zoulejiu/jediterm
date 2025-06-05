@@ -1,7 +1,7 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.ui.settings.SettingsProvider;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.ui.settings.SettingsProvider;
 import org.jetbrains.annotations.NotNull;
 
 class BlinkingTextTracker {

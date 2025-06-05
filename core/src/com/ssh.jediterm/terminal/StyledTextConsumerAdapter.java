@@ -1,6 +1,6 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.terminal.model.CharBuffer;
+import com.ssh.jediterm.terminal.model.CharBuffer;
 
 public class StyledTextConsumerAdapter implements StyledTextConsumer {
 

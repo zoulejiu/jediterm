@@ -1,6 +1,6 @@
-package com.jediterm.app;
+package com.ssh.jediterm.app;
 
-import com.jediterm.terminal.TtyConnector;
+import com.ssh.jediterm.terminal.TtyConnector;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

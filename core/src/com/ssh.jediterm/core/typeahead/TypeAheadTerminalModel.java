@@ -1,4 +1,4 @@
-package com.jediterm.core.typeahead;
+package com.ssh.jediterm.core.typeahead;
 
 import org.jetbrains.annotations.NotNull;
 

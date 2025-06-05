@@ -1,8 +1,8 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.core.compatibility.Point;
-import com.jediterm.terminal.model.CharBuffer;
-import com.jediterm.terminal.model.SubCharBuffer;
+import com.ssh.jediterm.core.compatibility.Point;
+import com.ssh.jediterm.terminal.model.CharBuffer;
+import com.ssh.jediterm.terminal.model.SubCharBuffer;
 import kotlin.Pair;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

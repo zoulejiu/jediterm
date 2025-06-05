@@ -1,4 +1,4 @@
-package com.jediterm.terminal.emulator.charset;
+package com.ssh.jediterm.terminal.emulator.charset;
 
 /**
  * Provides an enum with names for the supported character sets.

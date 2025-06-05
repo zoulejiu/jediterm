@@ -1,7 +1,7 @@
-package com.jediterm.terminal.ui.hyperlinks;
+package com.ssh.jediterm.terminal.ui.hyperlinks;
 
-import com.jediterm.terminal.model.hyperlinks.LinkInfo;
-import com.jediterm.terminal.ui.TerminalAction;
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkInfo;
+import com.ssh.jediterm.terminal.ui.TerminalAction;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

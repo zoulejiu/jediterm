@@ -1,6 +1,6 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.terminal.model.hyperlinks.LinkInfo;
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkInfo;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

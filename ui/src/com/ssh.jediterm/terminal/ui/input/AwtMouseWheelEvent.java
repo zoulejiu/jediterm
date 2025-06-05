@@ -1,6 +1,6 @@
-package com.jediterm.terminal.ui.input;
+package com.ssh.jediterm.terminal.ui.input;
 
-import com.jediterm.core.input.MouseWheelEvent;
+import com.ssh.jediterm.core.input.MouseWheelEvent;
 import org.jetbrains.annotations.NotNull;
 
 public final class AwtMouseWheelEvent extends MouseWheelEvent {

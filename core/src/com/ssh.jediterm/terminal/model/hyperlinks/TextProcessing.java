@@ -1,9 +1,9 @@
-package com.jediterm.terminal.model.hyperlinks;
+package com.ssh.jediterm.terminal.model.hyperlinks;
 
-import com.jediterm.terminal.HyperlinkStyle;
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.model.*;
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.terminal.HyperlinkStyle;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.model.*;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;

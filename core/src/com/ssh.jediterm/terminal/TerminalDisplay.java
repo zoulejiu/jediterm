@@ -1,10 +1,10 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
-import com.jediterm.core.Color;
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.emulator.mouse.MouseFormat;
-import com.jediterm.terminal.emulator.mouse.MouseMode;
-import com.jediterm.terminal.model.TerminalSelection;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseFormat;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseMode;
+import com.ssh.jediterm.terminal.model.TerminalSelection;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

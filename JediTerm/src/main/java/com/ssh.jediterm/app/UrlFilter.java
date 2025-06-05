@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.jediterm.app;
+package com.ssh.jediterm.app;
 
-import com.jediterm.terminal.model.hyperlinks.HyperlinkFilter;
-import com.jediterm.terminal.model.hyperlinks.LinkInfo;
-import com.jediterm.terminal.model.hyperlinks.LinkResult;
-import com.jediterm.terminal.model.hyperlinks.LinkResultItem;
+import com.ssh.jediterm.terminal.model.hyperlinks.HyperlinkFilter;
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkInfo;
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkResult;
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkResultItem;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

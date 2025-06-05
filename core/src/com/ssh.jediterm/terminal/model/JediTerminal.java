@@ -1,21 +1,21 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.core.Color;
-import com.jediterm.core.Platform;
-import com.jediterm.core.TerminalCoordinates;
-import com.jediterm.core.compatibility.Point;
-import com.jediterm.core.input.MouseEvent;
-import com.jediterm.core.input.MouseWheelEvent;
-import com.jediterm.core.util.CellPosition;
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.*;
-import com.jediterm.terminal.emulator.charset.CharacterSet;
-import com.jediterm.terminal.emulator.charset.GraphicSet;
-import com.jediterm.terminal.emulator.charset.GraphicSetState;
-import com.jediterm.terminal.emulator.mouse.*;
-import com.jediterm.terminal.model.hyperlinks.LinkResultItem;
-import com.jediterm.terminal.model.hyperlinks.TextProcessing;
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.core.Platform;
+import com.ssh.jediterm.core.TerminalCoordinates;
+import com.ssh.jediterm.core.compatibility.Point;
+import com.ssh.jediterm.core.input.MouseEvent;
+import com.ssh.jediterm.core.input.MouseWheelEvent;
+import com.ssh.jediterm.core.util.CellPosition;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.*;
+import com.ssh.jediterm.terminal.emulator.charset.CharacterSet;
+import com.ssh.jediterm.terminal.emulator.charset.GraphicSet;
+import com.ssh.jediterm.terminal.emulator.charset.GraphicSetState;
+import com.ssh.jediterm.terminal.emulator.mouse.*;
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkResultItem;
+import com.ssh.jediterm.terminal.model.hyperlinks.TextProcessing;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -1011,7 +1011,7 @@ public class JediTerminal implements Terminal, TerminalMouseListener, TerminalCo
 
   @Override
   public void mouseWheelMoved(int x, int y, @NotNull MouseWheelEvent event) {
-    // mousePressed() handles mouse wheel using SCROLLDOWN and SCROLLUP buttons 
+    // mousePressed() handles mouse wheel using SCROLLDOWN and SCROLLUP buttons
     mousePressed(x, y, event);
   }
 

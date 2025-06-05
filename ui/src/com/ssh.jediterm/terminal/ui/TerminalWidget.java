@@ -1,9 +1,9 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.terminal.TerminalDisplay;
-import com.jediterm.terminal.TtyConnector;
-import com.jediterm.terminal.model.JediTerminal;
-import com.jediterm.terminal.model.TerminalApplicationTitleListener;
+import com.ssh.jediterm.terminal.TerminalDisplay;
+import com.ssh.jediterm.terminal.TtyConnector;
+import com.ssh.jediterm.terminal.model.JediTerminal;
+import com.ssh.jediterm.terminal.model.TerminalApplicationTitleListener;
 
 import javax.swing.*;
 import java.awt.*;

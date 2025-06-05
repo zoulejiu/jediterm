@@ -1,7 +1,7 @@
-package com.jediterm.core.typeahead;
+package com.ssh.jediterm.core.typeahead;
 
-import com.jediterm.core.typeahead.TerminalTypeAheadManager.LatencyStatistics;
-import com.jediterm.core.typeahead.TerminalTypeAheadManager.TypeAheadEvent;
+import com.ssh.jediterm.core.typeahead.TerminalTypeAheadManager.LatencyStatistics;
+import com.ssh.jediterm.core.typeahead.TerminalTypeAheadManager.TypeAheadEvent;
 import junit.framework.TestCase;
 import org.jetbrains.annotations.NotNull;
 

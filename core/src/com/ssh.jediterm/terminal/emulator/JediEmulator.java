@@ -1,12 +1,12 @@
-package com.jediterm.terminal.emulator;
+package com.ssh.jediterm.terminal.emulator;
 
-import com.jediterm.core.Color;
-import com.jediterm.core.util.Ascii;
-import com.jediterm.core.util.TermSize;
-import com.jediterm.terminal.*;
-import com.jediterm.terminal.emulator.mouse.MouseFormat;
-import com.jediterm.terminal.emulator.mouse.MouseMode;
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.core.Color;
+import com.ssh.jediterm.core.util.Ascii;
+import com.ssh.jediterm.core.util.TermSize;
+import com.ssh.jediterm.terminal.*;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseFormat;
+import com.ssh.jediterm.terminal.emulator.mouse.MouseMode;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,8 +17,8 @@ import java.util.List;
 /**
  * The main terminal emulator class.
  * <p/>
- * Obtains data from the  {@link com.jediterm.terminal.TerminalDataStream}, interprets terminal ANSI escape sequences as commands and directs them
- * as well as plain data characters to the  {@link com.jediterm.terminal.Terminal}
+ * Obtains data from the  {@link com.ssh.jediterm.terminal.TerminalDataStream}, interprets terminal ANSI escape sequences as commands and directs them
+ * as well as plain data characters to the  {@link com.ssh.jediterm.terminal.Terminal}
  *
  * @author traff
  */

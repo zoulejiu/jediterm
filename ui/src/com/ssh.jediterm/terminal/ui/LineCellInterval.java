@@ -1,4 +1,4 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
 final class LineCellInterval {
   private final int myLine;

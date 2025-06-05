@@ -1,4 +1,4 @@
-package com.jediterm;
+package com.ssh.jediterm;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -12,7 +12,7 @@ public class VtEmulatorTest extends EmulatorTestAbstract {
   /**
    * Test of screen features
    */
-  
+
   public void testTest2_Screen_1() throws IOException {
     doVtTest();
   }
@@ -56,25 +56,25 @@ public class VtEmulatorTest extends EmulatorTestAbstract {
   public void testTest2_Screen_11() throws IOException {
     doVtTest();
   }
-  
+
   public void testTest2_Screen_12() throws IOException {
     doVtTest();
   }
-  
+
   public void testTest2_Screen_13() throws IOException {
     doVtTest();
   }
-  
+
   public void testTest2_Screen_14() throws IOException {
     doVtTest();
   }
-  
+
   public void testTest2_Screen_15() throws IOException {
     doVtTest();
   }
 
   /**
-   * Test of characters 
+   * Test of characters
    */
 
   public void testTest3_Characters_1() throws IOException {

@@ -1,8 +1,8 @@
-package com.jediterm.terminal.model;
+package com.ssh.jediterm.terminal.model;
 
-import com.jediterm.terminal.StyledTextConsumer;
-import com.jediterm.terminal.TextStyle;
-import com.jediterm.terminal.util.CharUtils;
+import com.ssh.jediterm.terminal.StyledTextConsumer;
+import com.ssh.jediterm.terminal.TextStyle;
+import com.ssh.jediterm.terminal.util.CharUtils;
 import kotlin.Pair;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -208,7 +208,7 @@ public final class TerminalLine {
         p = x;
       }
       if (dx + remaining < len) {
-        //part that left after deleting count 
+        //part that left after deleting count
         newEntries.add(new TextEntry(entry.getStyle(), entry.getText().subBuffer(dx + remaining, len - (dx + remaining))));
         remaining = 0;
       } else {

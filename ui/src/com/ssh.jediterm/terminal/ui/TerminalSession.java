@@ -1,8 +1,8 @@
-package com.jediterm.terminal.ui;
+package com.ssh.jediterm.terminal.ui;
 
-import com.jediterm.terminal.Terminal;
-import com.jediterm.terminal.TtyConnector;
-import com.jediterm.terminal.model.TerminalTextBuffer;
+import com.ssh.jediterm.terminal.Terminal;
+import com.ssh.jediterm.terminal.TtyConnector;
+import com.ssh.jediterm.terminal.model.TerminalTextBuffer;
 
 /**
  * @author traff

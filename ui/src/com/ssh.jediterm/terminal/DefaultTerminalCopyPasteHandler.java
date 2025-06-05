@@ -1,4 +1,4 @@
-package com.jediterm.terminal;
+package com.ssh.jediterm.terminal;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 import java.awt.*;
 import java.awt.datatransfer.*;
 
-import static com.jediterm.terminal.ui.UtilKt.isWindows;
+import static com.ssh.jediterm.terminal.ui.UtilKt.isWindows;
 
 public class DefaultTerminalCopyPasteHandler implements TerminalCopyPasteHandler, ClipboardOwner {
   private static final Logger LOG = LoggerFactory.getLogger(DefaultTerminalCopyPasteHandler.class);
