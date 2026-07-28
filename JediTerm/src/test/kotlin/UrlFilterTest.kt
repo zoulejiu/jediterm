@@ -1,6 +1,6 @@
-import com.jediterm.app.UrlFilter
-import com.jediterm.terminal.model.hyperlinks.LinkResult
-import com.jediterm.terminal.model.hyperlinks.LinkResultItem
+import com.ssh.jediterm.app.UrlFilter
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkResult
+import com.ssh.jediterm.terminal.model.hyperlinks.LinkResultItem
 import org.junit.Assert
 import org.junit.Test
 

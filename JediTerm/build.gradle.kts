@@ -4,6 +4,7 @@ plugins {
 }
 
 repositories {
+  mavenLocal()
   maven {
     url = uri("https://packages.jetbrains.team/maven/p/ij/intellij-dependencies")
   }
@@ -22,5 +23,5 @@ dependencies {
 }
 
 application {
-  mainClass = "com.jediterm.app.JediTermMain"
+  mainClass = "com.ssh.jediterm.app.JediTermMain"
 }

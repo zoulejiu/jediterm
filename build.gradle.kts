@@ -3,12 +3,13 @@ val projectVersion = rootProject.projectDir.resolve("VERSION").readText().trim()
 
 allprojects {
   version = projectVersion
-  group = "org.jetbrains.jediterm"
+  group = "com.ssh.jediterm"
   layout.buildDirectory = rootProject.projectDir.resolve(".gradleBuild/" + project.name)
 }
 
 subprojects {
   repositories {
+    mavenLocal()
     mavenCentral()
   }
 }

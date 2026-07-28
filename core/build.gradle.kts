@@ -97,12 +97,6 @@ publishing {
     }
   }
   repositories {
-    maven {
-      url = uri("https://packages.jetbrains.team/maven/p/ij/intellij-dependencies")
-      credentials {
-        username = System.getenv("INTELLIJ_DEPENDENCIES_BOT")
-        password = System.getenv("INTELLIJ_DEPENDENCIES_TOKEN")
-      }
-    }
+    mavenLocal()
   }
 }
